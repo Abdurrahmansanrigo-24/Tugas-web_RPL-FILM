@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Latihan form</title>
+        
+</head>
+<body>
+    
+    <fieldset style="border: 2px solid #000; width: 500px; background-color: rgb(206, 205, 205);"><legend><h1>Formulir Pendaftaran Siswa</h1></legend>
+        
+        <table>
+                <form action="">
+                <thead>
+                    <tr>
+                        <td>Nama Calon Siswa</td>
+                        <td>:</td>
+                        <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="tempat tinggal"></label>Tempat/tanggal lahir</td>
+                    <td>:</td>
+                    <td><input type="text"><input type="date"></td>
+                </tr>
+                <tr>
+                    <td>Agama</td>
+                    <td>:</td>
+                    <td><select name="Agama" id="agama">
+                        <option value="">islam</option>
+                        <option value="">kristen</option>
+                        <option value="">katolik</option>
+                        <option value="">hindu</option>
+                        <option value="">buddha</option>
+                        <option value="">konghucu</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="">Alamat</label></td>
+                    <td>:</td>
+                    <td><textarea name="" id="alamat" rows="3" cols="39"></textarea></td>
+                </tr>
+                <tr>
+                    <td>No Telp/Hp</td>
+                    <td>:</td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>:</td>
+                    <td><input type="radio">Laki-laki
+                        <input type="radio">Wanita</td>
+                    </tr>
+                    <tr>
+                       <td>Hobi</td>
+                        <td>:</td>
+                        <td><input type="checkbox">membaca
+                            <input type="checkbox">menulis
+                            <input type="checkbox">olahraga</td>
+                        </tr>
+                        <tr>
+                            <td>Pas foto</td>
+                            <td>:</td>
+                            <td><input type="file"></td>
+                        </tr>
+                        <tr>
+                            <td><button>SUBMIT</button></td>
+                        </tr>
+                    </thead>
+                </form>
+            </table>
+        </fieldset>
+</body>
+</html>
